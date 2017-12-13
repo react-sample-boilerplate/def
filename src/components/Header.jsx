@@ -21,7 +21,7 @@ class Header extends Component {
 
         return (
             <header className="header">
-                <ul className={klass}>{ list }</ul>
+                <ul className={this.state.klass}>{ list }</ul>
             </header>
         );
     }
