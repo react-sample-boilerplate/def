@@ -1,21 +1,18 @@
+@font-face {
+  font-family: 'BMJUA';
+  src: url("./font/BMJUA.eot");
+  src: url("./font/BMJUA.woff") format("woff"), url("./font/BMJUA.woff2") format("woff2"), url("./font/BMJUA.svg#BMJUA") format("svg"), url("./font/BMJUA.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 1.4;
-    word-break: keep-all;
-    word-wrap: break-word;
-}
-
-#layout-header {
-
-}
-
-
-.a {
-    font-size: 20px;
-}
-
-.b {
-    font-size: 50px;
+  font-family: 'BMJUA';
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  word-break: keep-all;1
+  word-wrap: break-word;
+  background: url("../../static/images/gorgeous-blonde-05-1920x850.jpg") 50% 50%;
+  backgroun-size: cover;
 }

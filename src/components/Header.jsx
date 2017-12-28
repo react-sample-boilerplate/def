@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import withLoading from './withLoading';
+
 class Header extends Component {
 
     constructor(props) {
@@ -7,7 +9,6 @@ class Header extends Component {
 
         this.state = {
             menu: this.props.menulist,
-            klass: 'a'
         };
     }
 
@@ -16,7 +17,9 @@ class Header extends Component {
         let { menu } = this.state;
 
         let list = menu.map((cv, i) => {
-            return <li key={i}>{cv}</li>;
+            return (
+                <li key={i}>{cv}</li>
+            );
         });
 
         return (
@@ -28,4 +31,4 @@ class Header extends Component {
 
 }
 
-export default Header;
+export default withLoading(Header);
